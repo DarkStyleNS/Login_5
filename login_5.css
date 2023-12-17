@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+button,
+input{
+    background: none;
+    border: none;
+    outline: none;
+}
+.container,
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+}
+
+.login-box{
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgb(72, 72, 141);
+    color: white;
+    border-top-left-radius: 5rem;
+}
+
+.head{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.body{
+    width: 100%;
+}
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label{
+    width: 100%;
+    height: 4rem;
+    border-radius: 1rem;
+    border: solid 2px white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+input[type=text],
+input[type=password]{
+    width: calc(100% - 3rem);
+    height: 3rem;
+    /* padding: .5rem; */
+    color: white;
+    font-size: 1.6rem;
+}
+
+.check_link{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.check_link label{
+    width: auto;
+    height: 3rem;
+    display: flex;
+    margin: 0px;
+    border: none;
+}
+.check_link label input{
+    border-radius: 50%;
+}
+.check_link label span{
+    font-size: 1.4rem;
+    color: white;
+    margin-left: .5rem;
+}
+
+.check_link a{
+    color: white;
+    font-size: 1.4rem;
+}
+
+button[type=submit]{
+    width: 100%;
+    height:3rem;
+    border-radius: 1rem;
+    background-color: grey;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.footer span{
+    font-size: 1.6rem;
+    color: white;
+}
+
+.footer a{
+    font-size: 1.6rem;
+    color: white;
+}
+
+::placeholder{
+    color: white;
+    font-size: 1.4rem;
+}
+
+a{
+    transition:all .3s;
+}
+
+button{
+    transition: all .3s;
+}
+a:hover,
+button:hover{
+    color: darkslategray;
+}
